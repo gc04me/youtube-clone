@@ -1,0 +1,43 @@
+.sidebarIcon {
+	display: flex;
+	padding: 10px 20px;
+	align-items: center;
+	cursor: pointer;
+}
+
+.sidebarIcon:hover {
+	background-color: rgb(189, 181, 181, 0.3);
+}
+
+.sidebarIcon > .MuiSvgIcon-root {
+	color: #606060;
+	margin-right: 20px;
+}
+
+.activeStyle > .MuiSvgIcon-root {
+	color: red;
+}
+
+.activeStyle {
+	background-color: rgb(189, 181, 181, 0.3);
+}
+
+.sidebarIcon > p {
+	font-size: 16px;
+	font-weight: 400;
+	letter-spacing: 1.3;
+}
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 900px) {
+	.sidebarIcon {
+		display: flex;
+		flex-direction: column;
+		cursor: pointer;
+	}
+	.sidebarIcon > p {
+		font-size: 16px;
+		font-weight: 400;
+		letter-spacing: 1.3;
+		display: flex;
+	}
+}

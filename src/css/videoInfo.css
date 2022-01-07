@@ -1,0 +1,41 @@
+.videoInfo__img {
+	width: 300px;
+}
+
+.videoInfo {
+	display: flex;
+	flex-direction: column;
+	cursor: pointer;
+	margin-bottom: 40px;
+}
+
+.videoInfo__details {
+	display: flex;
+	align-items: center;
+	margin: 5px 0px;
+}
+
+.videoInfo__details > p {
+	margin-left: 10px;
+	width: 250px;
+}
+
+.videoInfo__channel {
+	width: 300px;
+	margin-left: 50px;
+	font-weight: bold;
+	color: #817e7e;
+}
+
+.videoInfo__views {
+	width: 300px;
+	margin-left: 50px;
+	display: flex;
+	color: #817e7e;
+}
+
+@media only screen and (max-width: 500px) {
+	.videoInfo__img {
+		width: 350px;
+	}
+}

@@ -1,0 +1,41 @@
+.video {
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.videoPlayer {
+	width: 956px;
+	height: 538px;
+}
+
+.video__details {
+	display: flex;
+	flex-direction: column;
+}
+
+.video__details {
+	display: flex;
+	align-items: center;
+}
+
+.videoDesc {
+	width: 300px;
+	margin-left: 50px;
+	display: flex;
+	color: #817e7e;
+	margin-top: 3px;
+}
+
+@media only screen and (max-width: 600px) {
+	.videoPlayer {
+		width: 350px;
+		height: 350px;
+	}
+	.videoPlayerTitle {
+		flex-wrap: wrap;
+		width: 70%;
+	}
+}
